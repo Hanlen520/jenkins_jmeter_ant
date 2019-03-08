@@ -1,0 +1,8 @@
+TestcaseId,Description,keywords
+test001,check user is not register && if not and register,"check,register"
+test002,check user is not register && if not and register && login,"check,register,login"
+test003,login system && getUserBindCardNew && queryUserSettleInfo,"login,queryUserSettleInfo,getUserBindCardNew"
+test004,login system && queryUserBindCard,"login,queryUserBindCard,get_bank_list,get_user_card_info"
+test005,login system && get_user_card_info && get_bank_list,"login,get_bank_list,get_user_card_info"
+test006,login system && get_user_card_info && queryUserSettleInfo,"login,queryUserSettleInfo,get_user_card_info"
+test007,check user is not register && if not and register && login && queryUserSettleInfo,"check,register,login,queryUserSettleInfo"

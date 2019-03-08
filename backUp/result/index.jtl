@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="1552049999051" s="true" lb="check,register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="1906" it="0" lt="1899" ct="1777" ts="1552049999250" s="false" lb="check" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="351" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``if (  != false ){ 	Failure=true; 	FailureMessage=&quot;签名错误&quot;; 	}else{ 	FailureMessage . . . &apos;&apos; Encountered &quot;!=&quot; at line 1, column 7.&#xd;
+</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="178" it="0" lt="178" ct="0" ts="1552050001296" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1552050001524" s="true" lb="check,register,login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="432" it="0" lt="432" ct="378" ts="1552050001527" s="false" lb="check" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="337" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``if (  != false ){ 	Failure=true; 	FailureMessage=&quot;参数错误&quot;; 	}else{ 	FailureMessage . . . &apos;&apos; Encountered &quot;!=&quot; at line 1, column 7.&#xd;
+</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="67" it="0" lt="67" ct="0" ts="1552050001965" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1552050002046" s="false" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;    String response = prev.getResponseDataAsString(); . . . &apos;&apos; : Typed variable declaration : Class: JSONObject not found in namespace</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1552050002104" s="true" lb="login,queryUserSettleInfo,getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1552050002108" s="false" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;    String response = prev.getResponseDataAsString(); . . . &apos;&apos; : Typed variable declaration : Class: JSONObject not found in namespace</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="426" it="0" lt="426" ct="339" ts="1552050002143" s="true" lb="queryUserSettleInfo" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="300" ng="1" na="1"/>
+<httpSample t="1177" it="0" lt="1177" ct="1164" ts="1552050002591" s="true" lb="getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="260" sby="303" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1552050003772" s="true" lb="login,queryUserBindCard,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="135" it="0" lt="135" ct="109" ts="1552050003775" s="false" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;    String response = prev.getResponseDataAsString(); . . . &apos;&apos; : Typed variable declaration : Class: JSONObject not found in namespace</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="0" ts="1552050003923" s="true" lb="queryUserBindCard" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="296" ng="1" na="1"/>
+<httpSample t="163" it="0" lt="163" ct="0" ts="1552050003953" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1552050004131" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1552050004191" s="true" lb="login,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="23" it="0" lt="23" ct="0" ts="1552050004195" s="false" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;    String response = prev.getResponseDataAsString(); . . . &apos;&apos; : Typed variable declaration : Class: JSONObject not found in namespace</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="506" it="0" lt="506" ct="434" ts="1552050004224" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
+<httpSample t="139" it="0" lt="139" ct="0" ts="1552050004734" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
+
+</testResults>
