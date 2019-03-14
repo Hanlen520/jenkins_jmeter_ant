@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="1552487315431" s="true" lb="check,register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="28082" it="0" lt="0" ct="28082" ts="1552487315690" s="false" lb="check" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection timed out: connect" tn="关键字驱动 1-1" dt="text" by="2492" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``if (  != false ){ 	Failure=true; 	FailureMessage=&quot;&quot;; 	}else{ 	FailureMessage=&quot;&quot;; . . . &apos;&apos; Encountered &quot;!=&quot; at line 1, column 7.&#xd;
+</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="3228" it="0" lt="3227" ct="3162" ts="1552487343914" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1552487347186" s="true" lb="check,register,login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="142" it="0" lt="142" ct="122" ts="1552487347189" s="false" lb="check" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="337" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``if (  != false ){ 	Failure=true; 	FailureMessage=&quot;参数错误&quot;; 	}else{ 	FailureMessage . . . &apos;&apos; Encountered &quot;!=&quot; at line 1, column 7.&#xd;
+</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="28" it="0" lt="27" ct="0" ts="1552487347337" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="0" ts="1552487347380" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>断言结果：签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1552487347415" s="true" lb="login,queryUserSettleInfo,getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1552487347417" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>断言结果：签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="185" it="0" lt="185" ct="161" ts="1552487347448" s="true" lb="queryUserSettleInfo" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="300" ng="1" na="1"/>
+<httpSample t="197" it="0" lt="197" ct="181" ts="1552487347641" s="true" lb="getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="260" sby="303" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1552487347840" s="true" lb="login,queryUserBindCard,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1552487347841" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>断言结果：签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1552487347898" s="true" lb="queryUserBindCard" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="296" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1552487347944" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="32" ct="0" ts="1552487348034" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1552487348075" s="true" lb="login,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1552487348080" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>断言结果：签名错误</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="0" ts="1552487348127" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
+<httpSample t="26" it="0" lt="26" ct="0" ts="1552487348202" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
+
+</testResults>

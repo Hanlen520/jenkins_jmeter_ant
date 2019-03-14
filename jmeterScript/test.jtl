@@ -1,0 +1,23 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1552485233442,0,"check,register",200,OK,关键字驱动 1-1,text,true,,0,0,1,1,0,0,0
+1552485233615,1130,check,200,OK,关键字驱动 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``if (  != false ){ 	Failure=true; 	FailureMessage=""签名错误""; 	}else{ 	FailureMessage . . . '' Encountered ""!="" at line 1, column 7.
+",281,351,1,1,1128,0,1079
+1552485234953,53,register,200,OK,关键字驱动 1-1,text,false,签名错误,281,368,1,1,53,0,0
+1552485235052,0,"check,register,login",200,OK,关键字驱动 1-1,text,true,,0,0,1,1,0,0,0
+1552485235055,28,check,200,OK,关键字驱动 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``if (  != false ){ 	Failure=true; 	FailureMessage=""参数错误""; 	}else{ 	FailureMessage . . . '' Encountered ""!="" at line 1, column 7.
+",281,337,1,1,28,0,0
+1552485235089,27,register,200,OK,关键字驱动 1-1,text,false,签名错误,281,368,1,1,27,0,0
+1552485235135,25,login,200,OK,关键字驱动 1-1,text,true,断言结果：签名错误,281,362,1,1,25,0,0
+1552485235180,0,"login,queryUserSettleInfo,getUserBindCardNew",200,OK,关键字驱动 1-1,text,true,,0,0,1,1,0,0,0
+1552485235186,31,login,200,OK,关键字驱动 1-1,text,true,断言结果：签名错误,281,362,1,1,31,0,0
+1552485235281,240,queryUserSettleInfo,200,OK,关键字驱动 1-1,text,true,,272,300,1,1,240,0,221
+1552485235534,158,getUserBindCardNew,200,OK,关键字驱动 1-1,text,true,,260,303,1,1,158,0,142
+1552485235695,0,"login,queryUserBindCard,get_bank_list,get_user_card_info",200,OK,关键字驱动 1-1,text,true,,0,0,1,1,0,0,0
+1552485235697,14,login,200,OK,关键字驱动 1-1,text,true,断言结果：签名错误,281,362,1,1,14,0,0
+1552485235728,22,queryUserBindCard,200,OK,关键字驱动 1-1,text,true,,272,296,1,1,22,0,0
+1552485235757,29,get_bank_list,200,OK,关键字驱动 1-1,text,true,,248,292,1,1,29,0,0
+1552485235793,31,get_user_card_info,200,OK,关键字驱动 1-1,text,true,,270,407,1,1,31,0,0
+1552485235825,0,"login,get_bank_list,get_user_card_info",200,OK,关键字驱动 1-1,text,true,,0,0,1,1,0,0,0
+1552485235829,118,login,200,OK,关键字驱动 1-1,text,true,断言结果：签名错误,281,362,1,1,118,0,102
+1552485235951,33,get_bank_list,200,OK,关键字驱动 1-1,text,true,,248,292,1,1,32,0,0
+1552485235986,43,get_user_card_info,200,OK,关键字驱动 1-1,text,true,,270,407,1,1,43,0,0
