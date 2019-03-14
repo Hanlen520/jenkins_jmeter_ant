@@ -71,7 +71,7 @@
 		force="true" 
 		in="${jmeter.result}/index.jtl" 
 		out="${jmeter.result}/detailsReport.html" 
-		style="${basedir}/xlsReports/jmeter-results-detail-report_21.xsl">
+		style="${basedir}/xlsReports/jmeter.results.shanhe.me.xsl">
 			<param name="dateReport" expression="${report.datestamp}"/>
 		</xslt>
 	</target>
@@ -83,7 +83,7 @@
 		force="true" 
 		in="${jmeter.result}/index.jtl" 
 		out="${jmeter.result}/summaryReport.html" 
-		style="${basedir}/xlsReports/jmeter.results.shanhe.me.xsl">
+		style="${basedir}/xlsReports/jmeter-results-detail-report_21.xsl">
 			<param name="showData" expression="${show-data}"/>
 			<param name="titleReport" expression="${report.title}"/>
 			<!--此处报告title可以在xsl模版中设置修改，如果此处引用了变量，则会覆盖模板的title-->
