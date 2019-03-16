@@ -93,7 +93,7 @@
 
 	<target name="backup">
 		<echo message="删除前备份html/jtl报告文件"/>
-		<copy todir="${env.WORKSPACE}/backup">
+		<copy todir="${env.WORKSPACE}/backUp">
 			<fileset dir="${env.WORKSPACE}">
 				<include name="html-reports/*.*"/>
 			</fileset>

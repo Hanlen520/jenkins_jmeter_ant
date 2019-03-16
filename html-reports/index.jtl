@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<sample t="0" it="0" lt="0" ct="0" ts="1552547819376" s="true" lb="check,register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="1182" it="0" lt="1180" ct="1114" ts="1552547819548" s="false" lb="check" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="351" ng="1" na="1">
+<sample t="0" it="0" lt="0" ct="0" ts="1552614988339" s="true" lb="check,register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="3811" it="0" lt="3809" ct="3719" ts="1552614988527" s="false" lb="check" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="351" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -10,7 +10,7 @@
 </failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="17" it="0" lt="17" ct="0" ts="1552547820836" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
+<httpSample t="131" it="0" lt="131" ct="106" ts="1552614992672" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>true</failure>
@@ -18,8 +18,8 @@
     <failureMessage>签名错误</failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="0" it="0" lt="0" ct="0" ts="1552547820896" s="true" lb="check,register,login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="14" it="0" lt="14" ct="0" ts="1552547820899" s="false" lb="check" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="337" ng="1" na="1">
+<sample t="0" it="0" lt="0" ct="0" ts="1552614992885" s="true" lb="check,register,login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="15" it="0" lt="15" ct="0" ts="1552614992894" s="false" lb="check" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="337" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -28,7 +28,7 @@
 </failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="15" it="0" lt="15" ct="0" ts="1552547820919" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
+<httpSample t="29" it="0" lt="29" ct="0" ts="1552614992920" s="false" lb="register" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="368" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>true</failure>
@@ -36,7 +36,7 @@
     <failureMessage>签名错误</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="12" it="0" lt="12" ct="0" ts="1552547820950" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+<httpSample t="16" it="0" lt="16" ct="0" ts="1552614992992" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -44,8 +44,8 @@
     <failureMessage>断言结果：签名错误</failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="0" it="0" lt="0" ct="0" ts="1552547820974" s="true" lb="login,queryUserSettleInfo,getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="14" it="0" lt="14" ct="0" ts="1552547820977" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+<sample t="0" it="0" lt="0" ct="0" ts="1552614993027" s="true" lb="login,queryUserSettleInfo,getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1552614993030" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -53,10 +53,10 @@
     <failureMessage>断言结果：签名错误</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="104" it="0" lt="104" ct="85" ts="1552547821005" s="true" lb="queryUserSettleInfo" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="300" ng="1" na="1"/>
-<httpSample t="127" it="0" lt="127" ct="113" ts="1552547821124" s="true" lb="getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="260" sby="303" ng="1" na="1"/>
-<sample t="0" it="0" lt="0" ct="0" ts="1552547821260" s="true" lb="login,queryUserBindCard,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="21" it="0" lt="20" ct="0" ts="1552547821263" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+<httpSample t="136" it="0" lt="136" ct="115" ts="1552614993062" s="true" lb="queryUserSettleInfo" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="300" ng="1" na="1"/>
+<httpSample t="290" it="0" lt="289" ct="275" ts="1552614993216" s="true" lb="getUserBindCardNew" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="260" sby="303" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1552614993509" s="true" lb="login,queryUserBindCard,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1552614993512" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -64,11 +64,11 @@
     <failureMessage>断言结果：签名错误</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="20" it="0" lt="20" ct="0" ts="1552547821309" s="true" lb="queryUserBindCard" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="296" ng="1" na="1"/>
-<httpSample t="33" it="0" lt="33" ct="0" ts="1552547821343" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
-<httpSample t="28" it="0" lt="27" ct="0" ts="1552547821391" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
-<sample t="0" it="0" lt="0" ct="0" ts="1552547821420" s="true" lb="login,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="13" it="0" lt="12" ct="0" ts="1552547821423" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
+<httpSample t="17" it="0" lt="17" ct="0" ts="1552614993536" s="true" lb="queryUserBindCard" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="272" sby="296" ng="1" na="1"/>
+<httpSample t="23" it="0" lt="22" ct="0" ts="1552614993562" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1552614993594" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1552614993619" s="true" lb="login,get_bank_list,get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="13" it="0" lt="12" ct="0" ts="1552614993621" s="true" lb="login" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="281" sby="362" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -76,7 +76,7 @@
     <failureMessage>断言结果：签名错误</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="27" it="0" lt="27" ct="0" ts="1552547821453" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
-<httpSample t="38" it="0" lt="38" ct="0" ts="1552547821483" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
+<httpSample t="22" it="0" lt="22" ct="0" ts="1552614993639" s="true" lb="get_bank_list" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="248" sby="292" ng="1" na="1"/>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1552614993665" s="true" lb="get_user_card_info" rc="200" rm="OK" tn="关键字驱动 1-1" dt="text" by="270" sby="407" ng="1" na="1"/>
 
 </testResults>
