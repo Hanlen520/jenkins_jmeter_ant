@@ -15,7 +15,7 @@
 -->
 <project name="JmeterTest" default="all" basedir="." >
 	<description>
-	Jmeter+ant+jenkins
+	Jmeter+ant+jenkins+github
 </description>
 	<tstamp>
 		<format property="report.datestamp" pattern="yyyy/MM/dd hh:mm" />
